@@ -36,3 +36,6 @@
 * git branch
 * git checkout
 * git merge
+
+
+11월 6일 9시 39분 왔다갑니다 ^^ 
