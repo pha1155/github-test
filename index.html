@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="./css/main.css">
         <style>
             p {
-                color: #fff;
+                color: blue;
             }
         </style>
     </head>
@@ -17,6 +17,18 @@
 
         <input type="date"/>
 
-        <button style="color: red;">버튼 하나</button>
+        <h1>숫자 카운트</h1>
+        <button class="plus-button" style="color: red;">0</button>
     </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const _plusButton = document.querySelector(`.plus-button`);
+
+            for (let i = 0; i < 1; i++) {
+                _plusButton.addEventListener(`click`, function () {
+                    return _plusButton.innerHTML = ++i
+                });
+            }
+        });
+    </script>
 </html>
