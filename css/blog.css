@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eee;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header .header_title_area {
+    text-align: center;
+}
+
+.header .header_subtitle {
+    font-size: 20px;
+}
+
+.header .header_title {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.header .header_user .user_name {
+    color: #000;
+}
+
+.header .header_user .user_date {
+    color: gray;
+}
+
+.main section {
+    padding-bottom: 100px;
+}
+
+.main section .post {
+    text-align: center;
+}
+
+.main .list_tag {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.main .list_tag li {
+    padding: 10px;
+}
+
+.footer .footer_title {
+    font-size: 20px;
+}
+
+.footer .list_contant li b {
+    color: red;
+}
